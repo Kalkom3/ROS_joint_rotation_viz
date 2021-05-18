@@ -1,0 +1,12 @@
+<library path="lib/libwheels_rotation_plugin">
+  <class name="wheels_rotation_plugin/MyPlugin" type="wheels_rotation_plugin::MyPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      Vizualization of wheels rotation.
+    </description>
+    <qtgui>
+      <label>wheels_rotation_plugin</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Vizualization of wheels rotation.</statustip>
+    </qtgui>
+  </class>
+</library>
